@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Email" required>
+        <br>
+
+        <label for="gender">Gender:</label>
+    
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+    
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+
+        <label for="Occupation">Occupation</label>
+        <select name="Occupation" id="Occupation">
+            <option value="employ">Employ</option>
+            <option value="student">Student</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        <label for="mobile number">Phone No:</label>
+        <input type="tel" id="mobile number" required>
+        <br>
+
+        <label for="date">DOB:</label>
+        <input type="date" id="date" required>
+        <br>
+
+        <label for="Resume">Upload Resume:</label>
+        <input type="file" name="" id="Resume">
+        <br>
+
+        <label for="color">Choose Color:</label>
+        <input type="color" id="color">
+        <br>
+
+        <label for="skill">Communication Skill Range:</label>
+        <input type="range" id="skill">
+        <br>
+
+        <label for="comments">Tell me somethings about youself.</label>
+        <br>
+        <textarea name="comments here.." id="comments" placeholder="comments here..."></textarea>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
