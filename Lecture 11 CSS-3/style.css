@@ -1,0 +1,48 @@
+.box{height: 50px; width: 50px;}
+
+/* Background color */
+#box1{background-color: purple; text-align: left;}
+#box2{background-color: green; text-align: center;}
+#box3{background-color: blueviolet; text-align: right;}
+
+/* text decoration */
+#box4{text-decoration: underline; background-color: hotpink;}
+#box5{text-decoration: overline; background-color: saddlebrown;}
+#box6{text-decoration: line-through; background-color: yellow;}
+#link{text-decoration: none;}
+
+/* text decoration style & color */
+.head{height: 50px; width: 70px; text-decoration: underline;}
+#head1{text-decoration-style: dashed; background-color: wheat;}
+#head2{text-decoration-style: double; background-color: firebrick; text-decoration-color: cornflowerblue;}
+#head3{text-decoration-style: wavy; background-color: khaki; text-decoration-color:gray ;}
+#head4{text-decoration-style: dotted; background-color: cadetblue;}
+
+/* text transform */
+.monu{background-color: rebeccapurple;}
+#monu1{text-transform: uppercase;}
+#monu2{text-transform: lowercase;}
+#monu3{text-transform: capitalize;}
+#monu4{text-transform: none;}
+
+/* line height */
+#first{line-height: 10px;}
+#second{line-height: 30px;}
+
+/* font size */
+#para1{font-size: 10px;}
+#para2{font-size: 15px;}
+#para3{font-size: 25px;}
+
+/*font weight */
+#para4{font-weight: lighter;}
+#para5{font-weight: bolder;}
+
+/* Font style */
+#para6{font-style: italic;}
+#para7{font-style: normal;}
+#para8{font-style: oblique;}
+
+/* Font Family */
+#font1{font-family: cursive;}
+#font2{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
