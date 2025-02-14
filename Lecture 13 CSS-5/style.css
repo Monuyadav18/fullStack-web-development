@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0;}
+    .box {
+        background-color: cornflowerblue;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+    }
+    .book {
+        background-color: violet;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        margin: 5px;
+        margin: 10px;
+        border: 5px solid;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    #firstdiv {
+        background-color: gray;
+        height: 100px;
+        width: 200px;
+    }
+    #seconddiv {
+        background-color: darkcyan;
+        width: 50%;
+        height: 40%;
+        }
+    #thirddiv {
+        height: 100px;
+        width: 80px;
+        font-size: 15px;
+        background-color: hotpink;
+    }    
+    #fourthdiv {
+        height: 1.5em;
+        width: 2em;
+        font-size: 2em;
+        background-color: gold;
+    }
+
+    #sixdiv {
+        background-color: palevioletred;
+        height: 20vh;
+        width: 20vw;
+    }
+
+    #container1 {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        position: static;
+        background-color: green;
+    }
+    #container2 {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        left: 150px;
+        background-color: wheat;
+    }
+    #container3 {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        position: absolute;
+        left: 200px;
+        background-color: rebeccapurple;
+    }
+    #container4 {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        position: fixed;
+        left: 80px;
+        background-color: cadetblue;
+    }

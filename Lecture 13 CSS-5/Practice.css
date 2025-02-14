@@ -1,0 +1,49 @@
+* {
+    margin: 10px;
+    padding: 0px;
+}
+nav {
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 8px;
+    color: black;
+}
+header {
+    background-color: red;
+    height: 30px;
+}
+#div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 50%;
+}
+#container {
+    border: 3px solid;
+    margin: 10px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    display: inline-block;
+}
+#div2 {
+    z-index: 3;
+    position: absolute;
+    right: 100px;
+}
+#div3 {
+    position: fixed;
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: indianred;
+}
